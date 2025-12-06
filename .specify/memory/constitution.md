@@ -1,55 +1,47 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: None (initial creation)
+Modified principles: N/A
+Added sections: Key Standards, Constraints
+Removed sections: N/A
+Templates requiring updates:
+- D:\AI work\Hakathon quarter4\my-Robot\.specify\templates\plan-template.md: ⚠ pending
+- D:\AI work\Hakathon quarter4\my-Robot\.specify\templates\spec-template.md: ⚠ pending
+- D:\AI work\Hakathon quarter4\my-Robot\.specify\templates\tasks-template.md: ⚠ pending
+- D:\AI work\Hakathon quarter4\my-Robot\.specify\templates\commands\*.md: ⚠ pending
+Follow-up TODOs: N/A
+-->
+# Research paper on AI-native software development Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Accuracy
+All factual claims MUST be verified through primary source verification to ensure correctness and reliability for an academic audience.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity
+The writing MUST maintain clarity and precision, targeting an academic audience with a computer science background, avoiding jargon where simpler terms suffice, and ensuring logical flow.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Reproducibility
+All claims and findings MUST be supported by cited and traceable sources, allowing for independent verification and reproducibility of research outcomes.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Rigor
+The research MUST prioritize peer-reviewed sources, maintaining a high standard of academic rigor in evidence selection and argumentation.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Key Standards
 
-### [PRINCIPLE_6_NAME]
+*   All factual claims MUST be traceable to sources.
+*   Citation format: APA style.
+*   Source types: minimum 50% peer-reviewed articles.
+*   Plagiarism check: 0% tolerance before submission.
+*   Writing clarity: Flesch-Kincaid grade 10-12.
 
+## Constraints
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+*   Word count: 5,000-7,000 words.
+*   Minimum 15 sources.
+*   Format: PDF with embedded citations.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other project practices. Amendments require formal documentation, approval by the project lead, and a clear migration plan. All claims MUST be verified against sources. Zero plagiarism MUST be detected. The paper MUST pass a fact-checking review before submission.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 0.1.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
