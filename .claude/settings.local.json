@@ -5,7 +5,8 @@
       "Bash(git push:*)",
       "Bash(git fetch:*)",
       "Bash(ls:*)",
-      "Bash(.specify/scripts/powershell/create-new-feature.ps1:*)"
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1:*)",
+      "Bash(powershell.exe -Command:*)"
     ],
     "deny": [],
     "ask": []

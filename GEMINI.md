@@ -1,4 +1,4 @@
-# Claude Code Rules
+# Gemini CLI Rules
 
 This file is generated during init for the selected agent.
 
@@ -208,26 +208,3 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
-
----
-
-## API Project-Specific Guidelines
-
-### 1. API Design and Style
-- **RESTful Principles**: Adhere strictly to RESTful conventions. Use `GET` for retrieval, `POST` for creation, `PUT`/`PATCH` for updates, and `DELETE` for removal. Use standard HTTP status codes (e.g., `200 OK`, `201 Created`, `400 Bad Request`, `404 Not Found`).
-- **Versioning**: All API endpoints must be versioned under `/api/v<version>` (e.g., `/api/v1/users`).
-- **Naming Conventions**: Endpoint paths should be plural nouns (e.g., `/users`, `/products`). JSON property names in request/response bodies must be `camelCase`.
-
-### 2. Schema and Data Contracts
-- **Schema Definition**: All new endpoints must have their request and response schemas defined in the OpenAPI specification located at `specs/api/openapi.yaml`.
-- **Data Validation**: Use Pydantic models (for Python/FastAPI) or Zod schemas (for Node.js/TypeScript) for rigorous request validation. Do not write manual validation logic.
-
-### 3. Authentication and Authorization
-- **Authentication**: All authenticated endpoints must use JWT Bearer tokens. The AI should not implement new authentication mechanisms.
-- **Authorization**: For new endpoints, add required permission scopes to the OpenAPI spec. For example: `security: [{ "jwt": ["users:read"] }]`.
-
-### 4. Testing
-- **Unit Tests**: Business logic within service layers must be covered by unit tests.
-- **Integration Tests**: Every new endpoint requires at least one integration test covering the success path (2xx response) and one for an error path (4xx response).
-- **Tooling**: Use `pytest` for Python testing and `jest` with `supertest` for Node.js testing.
-
