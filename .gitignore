@@ -1,0 +1,14 @@
+# Generic
+*.log
+*.tmp
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# Output
+*.pdf
+
+# Editor/IDE
+.vscode/
+.idea/

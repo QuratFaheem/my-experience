@@ -4,9 +4,9 @@ Phase 1: Introduction & Literature Foundation
 └─ CHECKPOINT 1: Validate intro + outline against spec [X]
 
 Phase 2: Methodology & Analysis
-├─ Task 2.1: Methodology section (300-400 words, reproducible)
-├─ Task 2.2: Analysis section (800-1000 words, critical synthesis)
-└─ CHECKPOINT 2: Validate sections meet quality criteria
+├─ Task 2.1: Methodology section (300-400 words, reproducible) [ ] (File created: methodology.md. Awaiting content.)
+├─ Task 2.2: Analysis section (800-1000 words, critical synthesis) [ ] (File created: analysis.md. Awaiting content.)
+└─ CHECKPOINT 2: Validate sections meet quality criteria [ ]
 
 Phase 3: Integration & Refinement
 ├─ Task 3.1: Conclusion synthesizing all sections
